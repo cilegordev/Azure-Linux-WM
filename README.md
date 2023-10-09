@@ -158,7 +158,7 @@ pulseaudio
 qt-everywhere-src
 [qt-everywhere-src-5.15.2.tar.xz](https://download.qt.io/archive/qt/5.15/5.15.2/single/qt-everywhere-src-5.15.2.tar.xz) [or later](https://download.qt.io/archive/qt)  <br/>
 qt-everywhere-src.patch
-[](https://www.linuxfromscratch.org/patches/downloads/qt-everywhere-src/qt-everywhere-src-5.15.2-CVE-2021-3481-1.patch) <br/>
+[qt-everywhere-src-5.15.2-CVE-2021-3481-1.patch](https://www.linuxfromscratch.org/patches/downloads/qt-everywhere-src/qt-everywhere-src-5.15.2-CVE-2021-3481-1.patch) <br/>
 rsyslog
 [rsyslog-8.2108.0.tar.gz](http://www.rsyslog.com/download/files/download/rsyslog/rsyslog-8.2108.0.tar.gz) [or later](https://www.rsyslog.com/downloads/download-other/)  <br/>
 shared-mime-info
