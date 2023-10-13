@@ -7,7 +7,7 @@ Why did I make this? because there is no package in the repository and it is dif
 ![](image/concept.png)
 
 # Source
-Looks like some are already available in [repository](https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/) like X11, Xorg etc. but I don't know if everything is working or not. The last time I try to starx the screen freeze. <br/>
+Looks like some are already available in [Repository](https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/) like X11, Mesa etc. but I don't know if everything is working or not. The last time I try to starx the screen freeze. <br/>
 
 accounts-service
 [accountsservice-0.6.55.tar.xz](https://www.freedesktop.org/software/accountsservice/accountsservice-0.6.55.tar.xz) [or later](https://www.freedesktop.org/software/accountsservice/) <br/>
