@@ -6,6 +6,12 @@ Why did I make this? because there is no package in the repository and it is dif
 # Concept
 ![](image/concept.png)
 
+# Preference
+Beyond Linux® From Scratch (System V Edition) : https://www.linuxfromscratch.org/ <br/>
+[24. Graphical Environments](https://www.linuxfromscratch.org/blfs/view/stable/x/installing.html) <br/>
+[26. Display Managers](https://www.linuxfromscratch.org/blfs/view/stable/x/dm.html) <br/>
+[36. Xfce Desktop](https://www.linuxfromscratch.org/blfs/view/stable/xfce/xfce-core.html) <br/>
+
 # Source
 Looks like some are already available in [Repository](https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/) like X11, Mesa etc. but I don't know if everything is working or not. The last time I try to starx the screen freeze. <br/>
 
