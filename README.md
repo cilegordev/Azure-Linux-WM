@@ -14,8 +14,14 @@ Beyond Linux® From Scratch (System V Edition) : https://www.linuxfromscratch.or
 
 # Source
 Looks like some are already available in [Repository](https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/) like X11, Mesa etc. but I don't know if everything is working or not. The last time I try to starx the screen freeze. <br/>
+
 ![](image/virtualbox.png)
+
 failed to load driver: vmwgfx
+
+![](image/hyper-v.png)
+
+"/usr/local/bin/X": No such file or directory
 
 accounts-service
 [accountsservice-0.6.55.tar.xz](https://www.freedesktop.org/software/accountsservice/accountsservice-0.6.55.tar.xz) [or later](https://www.freedesktop.org/software/accountsservice/) <br/>
