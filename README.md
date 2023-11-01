@@ -23,6 +23,10 @@ failed to load driver: vmwgfx
 
 "/usr/local/bin/X": No such file or directory
 
+![](image/vmware.png)
+
+startx not working but can use xinit.
+
 accounts-service
 [accountsservice-0.6.55.tar.xz](https://www.freedesktop.org/software/accountsservice/accountsservice-0.6.55.tar.xz) [or later](https://www.freedesktop.org/software/accountsservice/) <br/>
 alsa-lib
