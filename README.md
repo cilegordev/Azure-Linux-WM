@@ -15,18 +15,6 @@ Beyond Linux® From Scratch (System V Edition) : https://www.linuxfromscratch.or
 # Source
 Looks like some are already available in [Repository](https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/) like X11, Mesa etc. but I don't know if everything is working or not. The last time I try to starx the screen freeze. <br/>
 
-![](image/virtualbox.png)
-
-failed to load driver: vmwgfx
-
-![](image/hyper-v.png)
-
-"/usr/local/bin/X": No such file or directory
-
-![](image/vmware.png)
-
-startx not working but can use xinit.
-
 accounts-service
 [accountsservice-0.6.55.tar.xz](https://www.freedesktop.org/software/accountsservice/accountsservice-0.6.55.tar.xz) [or later](https://www.freedesktop.org/software/accountsservice/) <br/>
 alsa-lib
@@ -227,6 +215,12 @@ xmlto
 [xmlto-0.0.28.tar.bz2](https://releases.pagure.org/xmlto/xmlto-0.0.28.tar.bz2) [or later](https://releases.pagure.org/xmlto/)  <br/>
 xrdb
 [xrdb-1.2.1.tar.bz2](https://www.x.org/releases/individual/app/xrdb-1.2.1.tar.bz2) [or later](https://www.x.org/releases/individual/app/)  <br/>
+
+# Tested
+
+[VirtualBox](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/virtualbox.png) status : failed to load driver: vmwgfx
+[Hyper-V](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/hyper-v.png) status : "/usr/local/bin/X": No such file or directory
+[VMware](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/vmware.png) status : startx not working but can use xinit.
 
 # For Microsoft
 In the next update [Mariner 3.0 x86_64 ISO](https://aka.ms/mariner-3.0-x86_64-iso) i hope add Xfce in repository. <br/>
