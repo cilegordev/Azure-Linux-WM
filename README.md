@@ -218,9 +218,9 @@ xrdb
 
 # Tested
 
-[VirtualBox](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/virtualbox.png) status : failed to load driver: vmwgfx
-[Hyper-V](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/hyper-v.png) status : "/usr/local/bin/X": No such file or directory
-[VMware](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/vmware.png) status : startx not working but can use xinit.
+[VirtualBox](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/virtualbox.png) status : failed to load driver: vmwgfx <br/>
+[Hyper-V](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/hyper-v.png) status : "/usr/local/bin/X": No such file or directory <br/>
+[VMware](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/vmware.png) status : startx not working but can use xinit. <br/>
 
 # For Microsoft
 In the next update [Mariner 3.0 x86_64 ISO](https://aka.ms/mariner-3.0-x86_64-iso) i hope add Xfce in repository. <br/>
