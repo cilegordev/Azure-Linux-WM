@@ -1,0 +1,32 @@
+user@CBL-Mariner-Hyper-V [ ~ ]$ startx
+xauth:  file /root/.serverauth.678 does not exist
+
+
+X.Org X Server 1.20.10
+X Protocol Version 11, Revision 0
+Build Operating System:  5.15.125.1-2.cm2
+Current Operating System: Linux CBL-Mariner-Hyper-V 5.15.133.1-1.cm2 #1 SMP Wed Oct 4 21:29:50 UTC 2023 x86_64
+Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.15.133.1-1.cm2 security=selinux selinux=1 rd.auto=1 root=PARTUUID=f16eebd8-ee53-438d-b8bf-7255d9b287f2 init=/lib/systemd/systemd ro loglevel=3 no-vmw-sta crashkernel=256M lockdown=integrity sysctl.kernel.unprivileged_bpf_disabled=1 net.ifnames=0 plymouth.enable=0 systemd.legacy_systemd_cgroup_controller=yes systemd.unified_cgroup_hierarchy=0
+Build Date: 23 August 2023  02:20:16AM
+Build ID: xorg-x11-server 1.20.10-4.cm2
+Current version of pixman: 0.42.2
+        Before reporting problems, check http://wiki.x.org
+        to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+        (++) from command line, (!!) notice, (II) informational,
+        (WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Tue Oct 31 21:33:01 2023
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+(EE)
+Fatal server error:
+(EE) no screens found(EE)
+(EE)
+Please consult the Microsoft Corporation support
+         at http://wiki.x.org
+ for help.
+(EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+(EE)
+(EE) Server terminated with error (1). Closing log file.
+xinit: giving up
+xinit: unable to connect to X server: Connection refused
+xinit: server error
