@@ -13,7 +13,7 @@ Beyond Linux® From Scratch (System V Edition) : https://www.linuxfromscratch.or
 [36. Xfce Desktop](https://www.linuxfromscratch.org/blfs/view/stable/xfce/xfce-core.html) <br/>
 
 # Source
-Looks like some are already available in [Repository](https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/) like X11, Mesa etc. but I don't know if everything is working or not. The last time I try to starx the screen freeze. <br/>
+Looks like some are already available in [Repository](https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/) like X11, Mesa etc. but I don't know if everything is working or not. The last time I try to startx the screen freeze. <br/>
 
 accounts-service
 [accountsservice-0.6.55.tar.xz](https://www.freedesktop.org/software/accountsservice/accountsservice-0.6.55.tar.xz) [or later](https://www.freedesktop.org/software/accountsservice/) <br/>
