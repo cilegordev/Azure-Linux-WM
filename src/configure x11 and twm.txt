@@ -2,7 +2,7 @@ source : https://raw.githubusercontent.com/DrewNaylor/drewnaylor.github.io/maste
 
 install cbl-mariner-2.0 via vmware 16.x
 
-sudo dnf -y install libX* x11* xorg* mesa* xterm dejavu-sans-mono-fonts --skip-broken
+sudo dnf -y install libX* xorg* mesa* xterm dejavu-sans-mono-fonts --skip-broken
 
 xf86-video-fbdev-0.5.0
 	chmod 755 configure
