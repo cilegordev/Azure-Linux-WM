@@ -13,7 +13,7 @@ Beyond Linux® From Scratch (System V Edition) : https://www.linuxfromscratch.or
 [36. Xfce Desktop](https://www.linuxfromscratch.org/blfs/view/stable/xfce/xfce-core.html) <br/>
 
 # Source
-Looks like some are already available in [Repository](https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/) like X11, Mesa etc. but I don't know if everything is working or not. The last time I try to startx the screen freeze. <br/>
+Looks like some are already available in [Repository](https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/) like X11, Mesa etc. but I don't know if everything is working or not. ~The last time I try to startx the screen freeze.~ <br/>
 
 accounts-service
 [accountsservice-0.6.55.tar.xz](https://www.freedesktop.org/software/accountsservice/accountsservice-0.6.55.tar.xz) [or later](https://www.freedesktop.org/software/accountsservice/) <br/>
@@ -126,101 +126,111 @@ libpng-apng.patch
 librsvg
 [librsvg-2.50.3.tar.xz](https://download.gnome.org/sources/librsvg/2.50/librsvg-2.50.3.tar.xz) [or later](https://download.gnome.org/sources/librsvg/) <br/>
 libwnck
-[libwnck-3.36.0.tar.xz](https://download.gnome.org/sources/libwnck/3.36/libwnck-3.36.0.tar.xz) [or later](https://download.gnome.org/sources/libwnck/)  <br/>
+[libwnck-3.36.0.tar.xz](https://download.gnome.org/sources/libwnck/3.36/libwnck-3.36.0.tar.xz) [or later](https://download.gnome.org/sources/libwnck/) <br/>
 libxfce4ui
-[libxfce4ui-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/libxfce4ui/4.16/libxfce4ui-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/libxfce4ui/)  <br/>
+[libxfce4ui-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/libxfce4ui/4.16/libxfce4ui-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/libxfce4ui/) <br/>
 libxfce4util
-[libxfce4util-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/libxfce4util/4.16/libxfce4util-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/libxfce4util/)  <br/>
+[libxfce4util-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/libxfce4util/4.16/libxfce4util-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/libxfce4util/) <br/>
 libXfont
-[libXfont-1.5.4.tar.gz](https://www.x.org/archive/individual/lib/libXfont-1.5.4.tar.gz) [or later](https://www.x.org/archive/individual/lib/)  <br/>
+[libXfont-1.5.4.tar.gz](https://www.x.org/archive/individual/lib/libXfont-1.5.4.tar.gz) [or later](https://www.x.org/archive/individual/lib/) <br/>
 libXinerama
-[libXinerama-1.1.tar.gz](https://www.x.org/archive/individual/lib/libXinerama-1.1.tar.gz) [or later](https://www.x.org/archive/individual/lib/)  <br/>
+[libXinerama-1.1.tar.gz](https://www.x.org/archive/individual/lib/libXinerama-1.1.tar.gz) [or later](https://www.x.org/archive/individual/lib/) <br/>
 libxklavier
-[libxklavier-5.4.tar.bz2](https://people.freedesktop.org/~svu/libxklavier-5.4.tar.bz2) [or later](https://people.freedesktop.org/~svu/)  <br/>
+[libxklavier-5.4.tar.bz2](https://people.freedesktop.org/~svu/libxklavier-5.4.tar.bz2) [or later](https://people.freedesktop.org/~svu/) <br/>
 libxml2
-[libxml2-2.9.12.tar.gz](http://xmlsoft.org/sources/libxml2-2.9.12.tar.gz) [or later](http://xmlsoft.org/sources/)  <br/>
+[libxml2-2.9.12.tar.gz](http://xmlsoft.org/sources/libxml2-2.9.12.tar.gz) [or later](http://xmlsoft.org/sources/) <br/>
 lightdm
-[lightdm-1.30.0.tar.xz](https://github.com/CanonicalLtd/lightdm/releases/download/1.30.0/lightdm-1.30.0.tar.xz) [or later](https://github.com/CanonicalLtd/lightdm/releases/)  <br/>
+[lightdm-1.30.0.tar.xz](https://github.com/CanonicalLtd/lightdm/releases/download/1.30.0/lightdm-1.30.0.tar.xz) [or later](https://github.com/CanonicalLtd/lightdm/releases/) <br/>
 lightdm-gtk-greeter
-[lightdm-gtk-greeter-2.0.8.tar.gz](https://ftp.osuosl.org/pub/blfs/conglomeration/lightdm/lightdm-gtk-greeter-2.0.8.tar.gz) [or later](https://ftp.osuosl.org/pub/blfs/conglomeration/lightdm/)  <br/>
+[lightdm-gtk-greeter-2.0.8.tar.gz](https://ftp.osuosl.org/pub/blfs/conglomeration/lightdm/lightdm-gtk-greeter-2.0.8.tar.gz) [or later](https://ftp.osuosl.org/pub/blfs/conglomeration/lightdm/) <br/>
 Linux-PAM
-[Linux-PAM-1.5.2.tar.xz](https://github.com/linux-pam/linux-pam/releases/download/v1.5.2/Linux-PAM-1.5.2.tar.xz) [or later](https://github.com/linux-pam/linux-pam/releases/)  <br/>
+[Linux-PAM-1.5.2.tar.xz](https://github.com/linux-pam/linux-pam/releases/download/v1.5.2/Linux-PAM-1.5.2.tar.xz) [or later](https://github.com/linux-pam/linux-pam/releases/) <br/>
 lynx
-[lynx2.8.9rel.1.tar.bz2](https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.bz2) [or later](https://invisible-mirror.net/archives/lynx/tarballs/)  <br/>
+[lynx2.8.9rel.1.tar.bz2](https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.bz2) [or later](https://invisible-mirror.net/archives/lynx/tarballs/) <br/>
 p11-kit
-[p11-kit-0.24.0.tar.xz](https://github.com/p11-glue/p11-kit/releases/download/0.24.0/p11-kit-0.24.0.tar.xz) [or later](https://github.com/p11-glue/p11-kit/releases/)  <br/>
+[p11-kit-0.24.0.tar.xz](https://github.com/p11-glue/p11-kit/releases/download/0.24.0/p11-kit-0.24.0.tar.xz) [or later](https://github.com/p11-glue/p11-kit/releases/) <br/>
 pango
-[pango-1.48.9.tar.xz](https://download.gnome.org/sources/pango/1.48/pango-1.48.9.tar.xz) [or later](https://download.gnome.org/sources/pango/)  <br/>
+[pango-1.48.9.tar.xz](https://download.gnome.org/sources/pango/1.48/pango-1.48.9.tar.xz) [or later](https://download.gnome.org/sources/pango/) <br/>
 pcre2
-[pcre2-10.36.tar.bz2](https://ftp.exim.org/pub/pcre/pcre2-10.36.tar.bz2) [or later](https://ftp.exim.org/pub/pcre/)  <br/>
+[pcre2-10.36.tar.bz2](https://ftp.exim.org/pub/pcre/pcre2-10.36.tar.bz2) [or later](https://ftp.exim.org/pub/pcre/) <br/>
 phonon
-[phonon-4.11.1.tar.xz](https://download.kde.org/stable/phonon/4.11.1/phonon-4.11.1.tar.xz) [or later](https://download.kde.org/stable/phonon/)  <br/>
+[phonon-4.11.1.tar.xz](https://download.kde.org/stable/phonon/4.11.1/phonon-4.11.1.tar.xz) [or later](https://download.kde.org/stable/phonon/) <br/>
 phonon-backend-gstreamer
-[phonon-backend-gstreamer-4.10.0.tar.xz](https://download.kde.org/stable/phonon/phonon-backend-gstreamer/4.10.0/phonon-backend-gstreamer-4.10.0.tar.xz) [or later](https://download.kde.org/stable/phonon/phonon-backend-gstreamer/)  <br/>
+[phonon-backend-gstreamer-4.10.0.tar.xz](https://download.kde.org/stable/phonon/phonon-backend-gstreamer/4.10.0/phonon-backend-gstreamer-4.10.0.tar.xz) [or later](https://download.kde.org/stable/phonon/phonon-backend-gstreamer/) <br/>
 polkit
-[polkit-0.118.tar.gz](https://www.freedesktop.org/software/polkit/releases/polkit-0.118.tar.gz) [or later](https://www.freedesktop.org/software/polkit/releases/)  <br/>
+[polkit-0.118.tar.gz](https://www.freedesktop.org/software/polkit/releases/polkit-0.118.tar.gz) [or later](https://www.freedesktop.org/software/polkit/releases/) <br/>
 pulseaudio
-[pulseaudio-14.2.tar.xz](https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-14.2.tar.xz) [or later](https://www.freedesktop.org/software/pulseaudio/releases/)  <br/>
+[pulseaudio-14.2.tar.xz](https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-14.2.tar.xz) [or later](https://www.freedesktop.org/software/pulseaudio/releases/) <br/>
 qt-everywhere-src
-[qt-everywhere-src-5.15.2.tar.xz](https://download.qt.io/archive/qt/5.15/5.15.2/single/qt-everywhere-src-5.15.2.tar.xz) [or later](https://download.qt.io/archive/qt)  <br/>
+[qt-everywhere-src-5.15.2.tar.xz](https://download.qt.io/archive/qt/5.15/5.15.2/single/qt-everywhere-src-5.15.2.tar.xz) [or later](https://download.qt.io/archive/qt) <br/>
 qt-everywhere-src.patch
 [qt-everywhere-src-5.15.2-CVE-2021-3481-1.patch](https://www.linuxfromscratch.org/patches/downloads/qt-everywhere-src/qt-everywhere-src-5.15.2-CVE-2021-3481-1.patch) <br/>
 rsyslog
-[rsyslog-8.2108.0.tar.gz](http://www.rsyslog.com/download/files/download/rsyslog/rsyslog-8.2108.0.tar.gz) [or later](https://www.rsyslog.com/downloads/download-other/)  <br/>
+[rsyslog-8.2108.0.tar.gz](http://www.rsyslog.com/download/files/download/rsyslog/rsyslog-8.2108.0.tar.gz) [or later](https://www.rsyslog.com/downloads/download-other/) <br/>
 shared-mime-info
-[shared-mime-info-2.1.tar.gz](https://ftp.osuosl.org/pub/blfs/conglomeration/shared-mime-info/shared-mime-info-2.1.tar.gz) [or later](https://ftp.osuosl.org/pub/blfs/conglomeration/shared-mime-info/)  <br/>
+[shared-mime-info-2.1.tar.gz](https://ftp.osuosl.org/pub/blfs/conglomeration/shared-mime-info/shared-mime-info-2.1.tar.gz) [or later](https://ftp.osuosl.org/pub/blfs/conglomeration/shared-mime-info/) <br/>
 tdb
-[tdb-1.4.5.tar.gz](https://download.samba.org/pub/tdb/tdb-1.4.5.tar.gz) [or later](https://download.samba.org/pub/tdb/)  <br/>
+[tdb-1.4.5.tar.gz](https://download.samba.org/pub/tdb/tdb-1.4.5.tar.gz) [or later](https://download.samba.org/pub/tdb/) <br/>
 thunar
-[thunar-4.16.6.tar.bz2](https://archive.xfce.org/src/xfce/thunar/4.16/thunar-4.16.6.tar.bz2) [or later](https://archive.xfce.org/src/xfce/thunar/)  <br/>
+[thunar-4.16.6.tar.bz2](https://archive.xfce.org/src/xfce/thunar/4.16/thunar-4.16.6.tar.bz2) [or later](https://archive.xfce.org/src/xfce/thunar/) <br/>
 thunar-volman
-[thunar-volman-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/thunar-volman/4.16/thunar-volman-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/thunar-volman/)  <br/>
+[thunar-volman-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/thunar-volman/4.16/thunar-volman-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/thunar-volman/) <br/>
 tumbler
-[tumbler-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/tumbler/4.16/tumbler-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/tumbler/)  <br/>
+[tumbler-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/tumbler/4.16/tumbler-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/tumbler/) <br/>
 upower-UPOWER
-[upower-UPOWER_0_99_13.tar.bz2](https://ftp.osuosl.org/pub/blfs/conglomeration/upower/upower-UPOWER_0_99_13.tar.bz2) [or later](https://ftp.osuosl.org/pub/blfs/conglomeration/upower/)  <br/>
+[upower-UPOWER_0_99_13.tar.bz2](https://ftp.osuosl.org/pub/blfs/conglomeration/upower/upower-UPOWER_0_99_13.tar.bz2) [or later](https://ftp.osuosl.org/pub/blfs/conglomeration/upower/) <br/>
 util-linux
-[util-linux-2.37.tar.xz](https://cdn.kernel.org/pub/linux/utils/util-linux/v2.37/util-linux-2.37.tar.xz) [or later](https://cdn.kernel.org/pub/linux/utils/util-linux/)  <br/>
+[util-linux-2.37.tar.xz](https://cdn.kernel.org/pub/linux/utils/util-linux/v2.37/util-linux-2.37.tar.xz) [or later](https://cdn.kernel.org/pub/linux/utils/util-linux/) <br/>
 vala
-[vala-0.52.5.tar.xz](https://download.gnome.org/sources/vala/0.52/vala-0.52.5.tar.xz) [or later](https://download.gnome.org/sources/vala/)  <br/>
+[vala-0.52.5.tar.xz](https://download.gnome.org/sources/vala/0.52/vala-0.52.5.tar.xz) [or later](https://download.gnome.org/sources/vala/) <br/>
 vte
-[vte-0.64.0.tar.gz](https://ftp.osuosl.org/pub/blfs/conglomeration/vte/vte-0.64.0.tar.gz) [or later](https://ftp.osuosl.org/pub/blfs/conglomeration/vte/)  <br/>
+[vte-0.64.0.tar.gz](https://ftp.osuosl.org/pub/blfs/conglomeration/vte/vte-0.64.0.tar.gz) [or later](https://ftp.osuosl.org/pub/blfs/conglomeration/vte/) <br/>
 xfce4-appfinder
-[xfce4-appfinder-4.16.1.tar.bz2](https://archive.xfce.org/src/xfce/xfce4-appfinder/4.16/xfce4-appfinder-4.16.1.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfce4-appfinder/)  <br/>
+[xfce4-appfinder-4.16.1.tar.bz2](https://archive.xfce.org/src/xfce/xfce4-appfinder/4.16/xfce4-appfinder-4.16.1.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfce4-appfinder/) <br/>
 xfce4-dev-tools
-[xfce4-dev-tools-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfce4-dev-tools/4.16/xfce4-dev-tools-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfce4-dev-tools/)  <br/>
+[xfce4-dev-tools-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfce4-dev-tools/4.16/xfce4-dev-tools-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfce4-dev-tools/) <br/>
 xfce4-icon-theme
-[xfce4-icon-theme-4.4.3.tar.bz2](https://archive.xfce.org/src/art/xfce4-icon-theme/4.4/xfce4-icon-theme-4.4.3.tar.bz2) [or later](https://archive.xfce.org/src/art/xfce4-icon-theme/)  <br/>
+[xfce4-icon-theme-4.4.3.tar.bz2](https://archive.xfce.org/src/art/xfce4-icon-theme/4.4/xfce4-icon-theme-4.4.3.tar.bz2) [or later](https://archive.xfce.org/src/art/xfce4-icon-theme/) <br/>
 xfce4-panel
-[xfce4-panel-4.16.2.tar.bz2](https://archive.xfce.org/src/xfce/xfce4-panel/4.16/xfce4-panel-4.16.2.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfce4-panel/)  <br/>
+[xfce4-panel-4.16.2.tar.bz2](https://archive.xfce.org/src/xfce/xfce4-panel/4.16/xfce4-panel-4.16.2.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfce4-panel/) <br/>
 xfce4-power-manager
-[xfce4-power-manager-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfce4-power-manager/4.16/xfce4-power-manager-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfce4-power-manager/)  <br/>
+[xfce4-power-manager-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfce4-power-manager/4.16/xfce4-power-manager-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfce4-power-manager/) <br/>
 xfce4-session
-[xfce4-session-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfce4-session/4.16/xfce4-session-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfce4-session/)  <br/>
+[xfce4-session-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfce4-session/4.16/xfce4-session-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfce4-session/) <br/>
 xfce4-settings
-[xfce4-settings-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfce4-settings/4.16/xfce4-settings-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfce4-settings/)  <br/>
+[xfce4-settings-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfce4-settings/4.16/xfce4-settings-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfce4-settings/) <br/>
 xfce4-terminal
-[xfce4-terminal-0.8.10.tar.bz2](https://archive.xfce.org/src/apps/xfce4-terminal/0.8/xfce4-terminal-0.8.10.tar.bz2) [or later](https://archive.xfce.org/src/apps/xfce4-terminal/0.8/xfce4-terminal-0.8.10.tar.bz2)  <br/>
+[xfce4-terminal-0.8.10.tar.bz2](https://archive.xfce.org/src/apps/xfce4-terminal/0.8/xfce4-terminal-0.8.10.tar.bz2) [or later](https://archive.xfce.org/src/apps/xfce4-terminal/0.8/xfce4-terminal-0.8.10.tar.bz2) <br/>
 xfconf-4.16.0.tar.bz2
-[xfconf-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfconf/4.16/xfconf-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfconf/)  <br/>
+[xfconf-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfconf/4.16/xfconf-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfconf/) <br/>
 xfdesktop
-[xfdesktop-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfdesktop/4.16/xfdesktop-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfdesktop/)  <br/>
+[xfdesktop-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfdesktop/4.16/xfdesktop-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfdesktop/) <br/>
 xfwm4
-[xfwm4-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfwm4/4.16/xfwm4-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfwm4/)  <br/>
+[xfwm4-4.16.0.tar.bz2](https://archive.xfce.org/src/xfce/xfwm4/4.16/xfwm4-4.16.0.tar.bz2) [or later](https://archive.xfce.org/src/xfce/xfwm4/) <br/>
 xfwm4-themes
-[xfwm4-themes-4.6.0.tar.bz2](https://archive.xfce.org/src/art/xfwm4-themes/4.6/xfwm4-themes-4.6.0.tar.bz2) [or later](https://archive.xfce.org/src/art/xfwm4-themes/)  <br/>
+[xfwm4-themes-4.6.0.tar.bz2](https://archive.xfce.org/src/art/xfwm4-themes/4.6/xfwm4-themes-4.6.0.tar.bz2) [or later](https://archive.xfce.org/src/art/xfwm4-themes/) <br/>
 xinit
-[xinit-1.4.1.tar.bz2](https://www.x.org/pub/individual/app/xinit-1.4.1.tar.bz2) [or later](https://www.x.org/pub/individual/app/)  <br/>
+[xinit-1.4.1.tar.bz2](https://www.x.org/pub/individual/app/xinit-1.4.1.tar.bz2) [or later](https://www.x.org/pub/individual/app/) <br/>
 xmlto
-[xmlto-0.0.28.tar.bz2](https://releases.pagure.org/xmlto/xmlto-0.0.28.tar.bz2) [or later](https://releases.pagure.org/xmlto/)  <br/>
+[xmlto-0.0.28.tar.bz2](https://releases.pagure.org/xmlto/xmlto-0.0.28.tar.bz2) [or later](https://releases.pagure.org/xmlto/) <br/>
 xrdb
-[xrdb-1.2.1.tar.bz2](https://www.x.org/releases/individual/app/xrdb-1.2.1.tar.bz2) [or later](https://www.x.org/releases/individual/app/)  <br/>
+[xrdb-1.2.1.tar.bz2](https://www.x.org/releases/individual/app/xrdb-1.2.1.tar.bz2) [or later](https://www.x.org/releases/individual/app/) <br/>
+
+if ✅ now live on repository
 
 # Tested
 
 [VirtualBox](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/virtualbox.png) status : failed to load driver: vmwgfx <br/>
 [Hyper-V](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/hyper-v.png) status : "/usr/local/bin/X": No such file or directory <br/>
 [VMware](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/vmware.png) status : startx not working but can use xinit. <br/>
+
+# Preview
+
+![](image/twm.png)
+<center>TWM installed</center>
+
+![](image/ssh.png)
+<center>Host to Guest</center>
 
 # For Microsoft
 In the next update [Mariner 3.0 x86_64 ISO](https://aka.ms/mariner-3.0-x86_64-iso) i hope add Xfce in repository. <br/>
