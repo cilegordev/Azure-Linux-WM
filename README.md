@@ -222,15 +222,11 @@ if ✅ now live on repository
 
 [VirtualBox](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/virtualbox.png) status : failed to load driver: vmwgfx <br/>
 [Hyper-V](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/hyper-v.png) status : "/usr/local/bin/X": No such file or directory <br/>
-[VMware](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/vmware.png) status : startx not working but can use xinit. <br/>
+[VMware](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/vmware.png) status : startx not working but can use xinit <br/>
+[TWM-installed](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/twm.png) status : done. <br/>
+[Host-to-Guest](https://raw.githubusercontent.com/cilegordev/CBL-Mariner-DE/main/image/ssh.png) status : helper. <br/>
+> now trying to install openbox... status : stuck! configure: error: Package requirements (pango >= 1.8.0 pango pt >= 1.8.0)... </br>
 
-# Preview
-
-![](image/twm.png)
-<center>TWM installed</center>
-
-![](image/ssh.png)
-<center>Host to Guest</center>
 
 # For Microsoft
 In the next update [Mariner 3.0 x86_64 ISO](https://aka.ms/mariner-3.0-x86_64-iso) i hope add Xfce in repository. <br/>
