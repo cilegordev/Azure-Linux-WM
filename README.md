@@ -10,9 +10,12 @@ I installed it just because I tried it before, I installed twm on [CBL-Mariner](
 | Some Packages I Installed |
 |-|
 | ![](image/unofficial-packages.png) |
-| |
+| <div align="center"> Road Map : WM --> Wallpapaer --> Browser --> Terminal </div> |
 
 other screenshot : [image1](image/fluxbox-wm.png) - [image2](image/neotop.png) - [image3](image/xfce4.png) - [image4](image/midori-browser.png)
+
+# To Do
+> Installing LXQt DE
 
 # Credits
 Laptop : Lenovo Ideapad 330 - Windows 10 Pro 2004 </br>
