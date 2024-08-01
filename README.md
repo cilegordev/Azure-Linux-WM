@@ -1,7 +1,7 @@
-# CBL-Mariner-DE
+# CBL-Mariner DE
 Components for building Xfce4 in CBL-Mariner.
 
-Why did I make this? because there is no package in the Repository and the only xfce package available is [libxfce4util-4.14.0-5.cm2.x86_64.rpm](https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/l/libxfce4util-4.14.0-5.cm2.x86_64.rpm). From here we can conclude that we will follow the only instructions from the available package. but sometimes there are errors that I don't understand so I give up.
+Why did I make this? because there is no package in the Repository and the only xfce package available is [libxfce4util-4.14.0-5.cm2.x86_64.rpm](https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/l/libxfce4util-4.14.0-5.cm2.x86_64.rpm). from here we can conclude that we will follow the only instructions from the available package. but sometimes there are errors that I don't understand so I give up.
 
 # Road Map & Preference
 Beyond Linux® From Scratch (System V Edition) : https://www.linuxfromscratch.org/ <br/>
@@ -10,7 +10,7 @@ Beyond Linux® From Scratch (System V Edition) : https://www.linuxfromscratch.or
 [35. Xfce Desktop](https://www.linuxfromscratch.org/blfs/view/10.0-systemd/xfce/xfce.html) <br/>
 
 # Source
-Some packages are available in the [Repository](https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/) like libx... mesa and xorg... so we can use them.
+Some packages are available in the Repository. like libx... mesa and xorg... so we can use them.
 
 libxfce4util-4.14.0 ```sudo dnf -y install libxfce4util``` <br/>
 [Xfconf-4.14.3](http://archive.xfce.org/src/xfce/xfconf/4.14/xfconf-4.14.3.tar.bz2) <br/>
@@ -34,7 +34,7 @@ libxfce4util-4.14.0 ```sudo dnf -y install libxfce4util``` <br/>
 
 # For Microsoft
 Now CBL-Mariner has been renamed to [Azure-Linux](https://github.com/microsoft/azurelinux/tree/3.0) and until now there is no WM or DE at all. <br/>
-Microsoft please provide any WM or DE in the [Repository](https://packages.microsoft.com/azurelinux/3.0/prod/base/x86_64/Packages/). <br/>
+Microsoft please provide any WM or DE in the [Repository](https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/). <br/>
 Official iso CBL-Mariner : https://aka.ms/mariner-2.0-x86_64-iso <br/>
 Official Repository CBL-Mariner on Github : https://github.com/microsoft/CBL-Mariner/ <br/>
 Official Packages Repository CBL-Mariner : https://packages.microsoft.com/cbl-mariner/ <br/>
