@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Azure Plymouth
+Description=azure plymouth by cilegordev forked from jonasotow
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/azure
+ScriptFile=/usr/share/plymouth/themes/azure/azure.script
