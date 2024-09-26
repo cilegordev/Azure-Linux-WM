@@ -1,5 +1,5 @@
 # Azure Linux WM
-Installed dwm on Azure Linux 3.0
+To many choices on the internet so I chose dwm
 
 # Preview
 | Azure Linux 3.0 |
