@@ -27,5 +27,5 @@ To many choices on the internet so I chose dwm
 
 # How To Install
 ```zsh
-wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d617/raw/20e6c96d8c603e29527fa07a72137fa91a76b211/dwm-src-azl3.sh && chmmod +x dwm-src-azl3.sh && ./dwm-src-azl3.sh
+wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d617/raw/20e6c96d8c603e29527fa07a72137fa91a76b211/dwm-src-azl3.sh && chmod +x dwm-src-azl3.sh && ./dwm-src-azl3.sh
 ```
