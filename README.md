@@ -27,5 +27,13 @@ To many choices on the internet so I chose dwm
 
 # How To Install
 ```zsh
-https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d617/raw/1fcdd27a2f30c0abb4de30639a9e45c87f260657/dwm-src-azl3.sh && chmod +x dwm-src-azl3.sh && ./dwm-src-azl3.sh
+wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d617/raw/09d2922c0a7eb23688612f7237f082b8b6db252f/dwm-src-azl3.sh && chmod +x dwm-src-azl3.sh && ./dwm-src-azl3.sh
+```
+
+# How To Apply Plymounth
+```zsh
+sudo nano /etc/deafault/grub
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+sudo plymouth-set-default-theme azure --rebuild-initrd
 ```
