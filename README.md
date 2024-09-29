@@ -14,7 +14,7 @@ other screenshot : [image1](image/preview-dwm.png) - [image2](image/preview-kern
 
 # How To Install
 ```zsh
-wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d617/raw/0bbdcaec9902e2fdbd8466fbf0be4ebe7251535e/dwm-src-azl3.sh && chmod +x dwm-src-azl3.sh && ./dwm-src-azl3.sh
+wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d617/raw/1504175c53c1f5c35a20377bb2bbc07d31967d2e/dwm-src-azl3.sh && chmod +x dwm-src-azl3.sh && ./dwm-src-azl3.sh
 ```
 
 # How To Apply Plymounth
