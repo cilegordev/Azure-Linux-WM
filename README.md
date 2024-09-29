@@ -14,7 +14,7 @@ other screenshot : [image1](image/preview-dwm.png) - [image2](image/preview-kern
 
 # How To Install
 ```zsh
-wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d617/raw/25197ba122108730d7dad85d74c039b005955eb1/dwm-src-azl3.sh && chmod +x dwm-src-azl3.sh && ./dwm-src-azl3.sh
+wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d617/raw/4efb0238da63e20049803aa80f38e6b33c085e49/dwm-src-azl3.sh && chmod +x dwm-src-azl3.sh && ./dwm-src-azl3.sh
 ```
 <details>
   <summary>
