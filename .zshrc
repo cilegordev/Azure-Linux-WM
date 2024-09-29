@@ -29,10 +29,10 @@ bindkey '^[[5~' beginning-of-buffer-or-history    # page up
 bindkey '^[[6~' end-of-buffer-or-history          # page down
 bindkey '^[[H' beginning-of-line                  # home
 bindkey '^[[F' end-of-line                        # end
-bindkey '^[[Y' redo                               # shift + tab redo last action
 bindkey '^[[Z' undo                               # shift + tab undo last action
-bindkey "\e[1~" beginning-of-line		  # HOME TTY
-bindkey "\e[4~" end-of-line			  # END TTY
+bindkey '^[[Y' redo                               # shift + tab redo last action
+bindkey "\e[1~" beginning-of-line		          # HOME TTY
+bindkey "\e[4~" end-of-line			              # END TTY
 
 # enable completion features
 autoload -Uz compinit
@@ -120,10 +120,10 @@ configure_prompt() {
 
 # The following block is surrounded by two delimiters.
 # These delimiters must not be modified. Thanks.
-# START KALI CONFIG VARIABLES
+# START SHELL CONFIG VARIABLES
 PROMPT_ALTERNATIVE=oneline
 NEWLINE_BEFORE_PROMPT=no
-# STOP KALI CONFIG VARIABLES
+# STOP SHELL CONFIG VARIABLES
 
 if [ "$color_prompt" = yes ]; then
     # override default virtualenv indicator in prompt
@@ -256,7 +256,7 @@ alias cls='clear'
 alias s='sudo'
 alias ex='exit'
 alias edit='nano'
-alias ssr='sudo rm -rf'
+alias ssr='sudo rm -rfv'
 
 # enable auto-suggestions based on the history
 if [ -f /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
