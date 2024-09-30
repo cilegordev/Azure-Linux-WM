@@ -35,7 +35,10 @@ wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d
 - parole-4.18.1
 - NetworkManager-1.51.1
 - neofetch-7.1.1
-- microsoft-edge-stable-129.0.2792.65
+- firefox-130.0
+- gimp-2.10
+- libreoffice-24.8.2
+- code-1.93.1
 </details>
 
 # How To Apply Plymounth
