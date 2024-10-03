@@ -15,7 +15,7 @@ other screenshot : [image1](image/preview-dwm.png) - [image2](image/preview-kern
 # How To Install
 This script is active maintenance 🟢
 ```zsh
-wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d617/raw/ddae68e47d95cb3b08db16fda00c3ed5e27bf228/dwm-src-azl3.sh && chmod +x dwm-src-azl3.sh && ./dwm-src-azl3.sh
+wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d617/raw/67c94384be273d59092f25a1ae50d2d379bd1e6e/dwm-src-azl3.sh && chmod +x dwm-src-azl3.sh && ./dwm-src-azl3.sh
 ```
 <details>
   <summary>
