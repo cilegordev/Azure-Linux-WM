@@ -8,10 +8,12 @@ Moto : convert Azure Linux CLI to Azure Linux GUI
 | <div align="center"> - </div> |
 
 # To Do
-> Installing on bare metal later
+> Missing package obs-studio </br>
+> Missing package pavucontrol </br>
+> Installing on bare metal later </br>
 
 # How To Install
 This script is active maintenance 🟢
 ```zsh
-wget https://gist.githubusercontent.com/cilegordev/be078308e3fb322c4a649cdfd8444544/raw/bfbc87be5cd8e6952e448d3cce2ec7f828c057cc/xfce4-src-azl3.sh && chmod +x xfce4-src-azl3.sh && ./xfce4-src-azl3.sh
+wget https://gist.githubusercontent.com/cilegordev/be078308e3fb322c4a649cdfd8444544/raw/7d0a4adb5332a24a5cac474fe6e42754a67a1b69/xfce4-src-azl3.sh && chmod +x xfce4-src-azl3.sh && ./xfce4-src-azl3.sh
 ```
