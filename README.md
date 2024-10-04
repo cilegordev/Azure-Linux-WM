@@ -10,6 +10,8 @@ Moto : convert Azure Linux CLI to Azure Linux GUI
 # To Do
 > Missing package obs-studio </br>
 > Missing package pavucontrol </br>
+> Trying to fix wlan0 maybe later </br>
+> Trying to fix brightness maybe later </br>
 > [Installing on bare metal later](image/azl3-on-bare-metal.png) ✅ </br>
 
 # How To Install
