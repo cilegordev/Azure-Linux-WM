@@ -15,7 +15,7 @@ other screenshot : [image1](image/preview-dwm.png) - [image2](image/preview-kern
 # How To Install
 This script is active maintenance 🟢
 ```zsh
-wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d617/raw/67c94384be273d59092f25a1ae50d2d379bd1e6e/dwm-src-azl3.sh && chmod +x dwm-src-azl3.sh && ./dwm-src-azl3.sh
+wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d617/raw/e373fc68799133b72159a6203b7589b48fe208ff/dwm-src-azl3.sh && chmod +x dwm-src-azl3.sh && ./dwm-src-azl3.sh
 ```
 <details>
   <summary>
@@ -34,12 +34,8 @@ wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d
 - mousepad-0.6.2
 - ristretto-0.13.2
 - parole-4.18.1
-- NetworkManager-1.51.1
 - neofetch-7.1.1
 - firefox-130.0
-- gimp-2.10
-- libreoffice-24.8.2
-- code-1.93.1
 </details>
 
 # How To Apply Plymounth

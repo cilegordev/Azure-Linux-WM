@@ -31,8 +31,8 @@ bindkey '^[[H' beginning-of-line                  # home
 bindkey '^[[F' end-of-line                        # end
 bindkey '^[[Z' undo                               # shift + tab undo last action
 bindkey '^[[Y' redo                               # shift + tab redo last action
-bindkey "\e[1~" beginning-of-line		          # HOME TTY
-bindkey "\e[4~" end-of-line			              # END TTY
+bindkey "\e[1~" beginning-of-line		  # HOME TTY
+bindkey "\e[4~" end-of-line			  # END TTY
 
 # enable completion features
 autoload -Uz compinit
