@@ -1,0 +1,4 @@
+missing package in repo for install ms-edge
+----------------------------------------------------------------
+sudo rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-40-primary
+
