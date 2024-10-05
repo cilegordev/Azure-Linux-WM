@@ -72,7 +72,7 @@ static const char *settings[]  = { "lxappearance", NULL };
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_Return, spawn,          {.v = dmenucmd } },
-	{ MODKEY,             			XK_grave,  spawn,          {.v = termcmd } },
+	{ MODKEY,             		XK_grave,  spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_q,      togglebar,      {0} },
 	{ MODKEY,                       XK_Left,   focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_Right,  focusstack,     {.i = -1 } },
@@ -82,7 +82,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
 	{ MODKEY,                       XK_z, 	   zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
-	{ MODKEY,             			XK_w,      killclient,     {0} },
+	{ MODKEY,             		XK_w,      killclient,     {0} },
 	{ MODKEY,                       XK_e,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_d,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_c,      setlayout,      {.v = &layouts[2]} },
@@ -103,7 +103,7 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
-	{ MODKEY,             			XK_Escape, quit,           {0} },
+	{ MODKEY,             		XK_Escape, quit,           {0} },
 	{ ControlMask,                  XK_t,      spawn,          {.v = file_manager } },
 	{ ControlMask,                  XK_e,      spawn,          {.v = text_editor } },
 	{ ControlMask,                  XK_b,      spawn,          {.v = browser } },
