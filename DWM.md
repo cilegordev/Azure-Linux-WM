@@ -9,9 +9,6 @@ Installed dwm on Azure Linux. why dwm? cause this wm is so lightweight and full 
 
 other screenshot : [image1](image/preview-dwm.png) - [image2](image/preview-kernel-6.11.0.png) - [image3](image/preview-plymounth.png) - [image4](image/ms-edge-on-azurelinux.png)
 
-# To Do
-> Installing on bare metal later
-
 # How To Install
 This script is active maintenance 🟢
 ```zsh
@@ -21,7 +18,7 @@ wget https://gist.githubusercontent.com/cilegordev/18c4a83e55c9f4ff456b6c0a9658d
   <summary>
 <h2>pre-installed : </h2>
 </summary>
-  
+ 
 - dwm-6.5
 - dmenu-5.3
 - st-0.9.2

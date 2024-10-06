@@ -1,11 +1,11 @@
 # Azure Linux Desktop Environment
-Moto : convert Azure Linux CLI to Azure Linux GUI
+Azure Linux, previously known as CBL-Mariner (in which CBL stands for Common Base Linux), is a free and open-source Linux distribution that Microsoft has developed. It is the base container OS for Microsoft Azure services and the graphical component of WSL 2. But in this time, i installed xfce with a little customization.
 
 # Preview
-| Xfce on Azure Linux 3.0 |
+| Xfce4 on Azure Linux 3.0 |
 |-|
 | ![](image/xfce4.png) |
-| <div align="center"> - </div> |
+| <div align="center"> Where Xfce 5.0? </div> |
 
 # To Do
 > Missing package obs-studio </br>

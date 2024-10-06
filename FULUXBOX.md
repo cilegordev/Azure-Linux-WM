@@ -14,9 +14,6 @@ I installed it just because I tried it before, I installed twm on [CBL-Mariner](
 
 other screenshot : [image1](image/fluxbox-wm.png) - [image2](image/fluxbox-wm2.png) - [image3](image/neotop.png) - [image4](image/midori-browser.png)
 
-# To Do
-> Installing on bare metal maybe
-
 # How To Install
 ⚠️ This script is not active maintenance 🟠
 ```zsh
