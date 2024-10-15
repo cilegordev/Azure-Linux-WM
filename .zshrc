@@ -97,8 +97,9 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 configure_prompt() {
+    # for user terminal
     prompt_symbol=@
-    # Skull emoji for root terminal
+    # for root terminal
     #[ "$EUID" -eq 0 ] && prompt_symbol=@
     case "$PROMPT_ALTERNATIVE" in
         twoline)
@@ -107,7 +108,7 @@ configure_prompt() {
             #RPROMPT=$'%(?.. %? %F{red}%B⨯%b%F{reset})%(1j. %j %F{yellow}%B⚙%b%F{reset}.)'
             ;;
         oneline)
-            PROMPT=$'${azurelinux_chroot:+($azurelinux_chroot)}${VIRTUAL_ENV:+($(basename $VIRTUAL_ENV))}%B%F{%(#.red.blue)}%n%F{white}@%F{blue}%m%b: %F{reset}%B%F{%(#.blue.green)}%F{white}[ %F{green}%~ %F{white}]%b%F{reset}%(#.#.$) '
+            PROMPT=$'${azurelinux_chroot:+($azurelinux_chroot)}${VIRTUAL_ENV:+($(basename $VIRTUAL_ENV))}%B%F{%(#.red.blue)}%n%F{white}@%F{blue}%m%b%F{white}: %F{reset}%B%F{%(#.blue.green)}%F{white}[ %F{green}%~ %F{white}]%b%F{reset}%(#.#.$) '
             RPROMPT=$'%(?.. %? %F{red}%BX%b%F{reset})%(1j. %j %F{yellow}%BO%b%F{reset}.)'
             ;;
         bash)
@@ -132,8 +133,8 @@ if [ "$color_prompt" = yes ]; then
     configure_prompt
 
     # enable syntax-highlighting
-    if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
-        . /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+    if [ -f /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
+        . /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
         ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
         ZSH_HIGHLIGHT_STYLES[default]=none
         ZSH_HIGHLIGHT_STYLES[unknown-token]=underline
@@ -197,7 +198,7 @@ bindkey ^P toggle_oneline_prompt
 # If this is an xterm set the title to Terminal
 case "$TERM" in
 xterm*|rxvt*|Eterm|aterm|kterm|gnome*|alacritty)
-    TERM_TITLE=$'\e]0;Terminal\a'
+    TERM_TITLE=$'\e]0;$(. /etc/os-release; echo "$NAME") - Terminal\a'
     ;;
 *)
     ;;
@@ -223,8 +224,8 @@ if [ -x /usr/bin/dircolors ]; then
     export LS_COLORS="$LS_COLORS:ow=30;44:" # fix ls color for folders with 777 permissions
 
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
 
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
@@ -259,8 +260,8 @@ alias edit='nano'
 alias ssr='sudo rm -rfv'
 
 # enable auto-suggestions based on the history
-if [ -f /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
-    . /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
+    . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
     # change suggestion color
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
