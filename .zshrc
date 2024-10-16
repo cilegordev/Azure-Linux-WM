@@ -198,7 +198,7 @@ bindkey ^P toggle_oneline_prompt
 # If this is an xterm set the title to Terminal
 case "$TERM" in
 xterm*|rxvt*|Eterm|aterm|kterm|gnome*|alacritty)
-    TERM_TITLE=$'\e]0;$(. /etc/os-release; echo "$NAME") - Terminal\a'
+    TERM_TITLE=$'\e]0;$(. /etc/os-release; echo "$NAME")\a'
     ;;
 *)
     ;;
